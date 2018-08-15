@@ -33,15 +33,16 @@ header{
     height: 3px;
 }
 
-#social-media {
+.social-media {
     position: relative;
     top: 8px;
     margin: 0 23px;
 }
 
-#social-media .fa-facebook,.fa-google-plus,.fa-twitter,.fa-instagram,.fa-youtube {
+.social-media .fa-facebook,.fa-google-plus,.fa-twitter,.fa-instagram,.fa-youtube {
     padding: 4px 6px;
     cursor: pointer;
+    font-size: 17px;
     font-weight: 500;
     background: #3b5998;
     color: #fff;
@@ -50,9 +51,10 @@ header{
     text-align: center;
     border-radius: 4px;
 }
-#social-media #icon{
+.social-media #icon{
     padding: 4px 6px;
     cursor: pointer;
+    font-size: 17px;
     font-weight: 500;
     background: #3b5998;
     color: #fff;
